@@ -1,63 +1,78 @@
-.grid-container {
-        
-    display: grid;
-    grid-template-columns: 50% 50%;
-    background-color: white;
-    padding: 5px;
-    height: 100%;
-  }
-  .grid-item1{
-  
-      background-color: royalblue;
-      display: grid;
-  }
-  .grid-item{
-  
-  background-color: lightgrey;
-  display: grid;
-  }
-  h1, h3{
-      color: white;
-      font-weight: bolder;
-      margin-top: 25%;
-  }
-  span{
-      color: black;
-      font-weight: bolder;
-  }
-  p{
-      color: white;
-      
-  }
-  li{
-      color: white;
-      
-  }
-  .bdy{
-      margin-left: 20%;
-  }
-  .dd{
-      margin-left: 25%;
-      margin-top: 10%;
-  }
-  #pp{
-      color: black;
-  }
-  #show{
-      color: black;
-      font-size: xx-large;
-  }
-  #show1,#show3{
-      color: black;
-      font-size: medium;
-  }
-  #show2{
-      color: black;
-      font-size: xx-large;
-  }
-  #tt{
-      margin-left: 20%;
-      margin-top: 20%;
-  }
-     
-    
+body{
+    background-color: #6B029C;
+}
+.app-wrap{
+ 
+}
+.search-bar{
+   width: fit-content;
+   margin: auto;
+}
+#search-bar{
+    width: 200px;
+    height: 30px;
+    background-color: #9E4EC2;
+    color: black;
+    border: 2px solid #9E4EC2;
+    border-bottom: 2px solid orange;
+    border-top-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    margin-top: 30px;
+    font-size: 20px;
+    opacity: 0.8;
+}
+.city{
+    width: fit-content;
+    margin: auto;
+    margin-top: 40px;
+    color: white;
+    font-size: 35px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.date{
+    width: fit-content;
+    margin: auto;
+    margin-top: 2px;
+    color: white;
+    font-size: 17px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    opacity: 0.8;
+}
+.temp{
+    width: fit-content;
+    margin: auto;
+    margin-top: 30px;
+    color: white;
+    font-size: 100px;
+    font-weight: 600;
+    text-shadow: 5px 3px black;
+}
+.weather{
+    width: fit-content;
+    margin: auto;
+    margin-top: 30px;
+    color: white;
+    font-size: 35px;
+    font-family: cursive;
+}
+.hi-low{
+    width: fit-content;
+    margin: auto;
+    margin-top: 4px;
+    color: white;
+    font-size: 25px;
+}
+#search-bar:focus{
+    outline: none;
+}
+#search-bar::placeholder{
+    color: black;
+}
+/* main section{
+    width: fit-content;
+    margin: auto;
+}
+.current{
+    width: fit-content;
+    margin: auto;
+} */
