@@ -1,9 +1,6 @@
 body{
     background-color: #6B029C;
 }
-.app-wrap{
- 
-}
 .search-bar{
    width: fit-content;
    margin: auto;
@@ -68,11 +65,3 @@ body{
 #search-bar::placeholder{
     color: black;
 }
-/* main section{
-    width: fit-content;
-    margin: auto;
-}
-.current{
-    width: fit-content;
-    margin: auto;
-} */
